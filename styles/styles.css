@@ -1,13 +1,245 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .title {
-  font-size: 2;
+  font-family: "Courgette", sans-serif;
+  font-size: 2rem;
   font-weight: lighter;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.info {
+  max-width: 50rem;
+  color: #333;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-center-left-right {
+  margin: 0 auto;
+}
+
+/*Flex and Grid*/
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Background colors and Text colors*/
+.bg-primary {
+  background-color: #f4f4f4;
+}
+
+.text-light {
+  color: #f4f4f4;
+}
+
+.text-dark {
+  color: #333;
+}
+
+/* Margin and Padding */
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 2.5rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+.m-6 {
+  margin: 5rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 2.5rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.my-6 {
+  margin: 5rem 0;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
+
+.mx-2 {
+  margin: 0 1.5rem;
+}
+
+.mx-3 {
+  margin: 0 2rem;
+}
+
+.mx-4 {
+  margin: 0 2.5rem;
+}
+
+.mx-5 {
+  margin: 0 4rem;
+}
+
+.mx-6 {
+  margin: 0 5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 4rem;
+}
+
+.mb-6 {
+  margin-bottom: 5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+.p-6 {
+  padding: 5rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 2.5rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.py-6 {
+  padding: 5rem 0;
+}
+
+.px-1 {
+  padding: 0 1rem;
+}
+
+.px-2 {
+  padding: 0 1.5rem;
+}
+
+.px-3 {
+  padding: 0 2rem;
+}
+
+.px-4 {
+  padding: 0 2.5rem;
+}
+
+.px-5 {
+  padding: 0 4rem;
+}
+
+.px-6 {
+  padding: 0 5rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 2rem;
+}
+
+.pb-4 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 4rem;
+}
+
+.pb-6 {
+  padding-bottom: 5rem;
 }
 
 * {
@@ -17,10 +249,42 @@
           box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#logo h1 {
+  padding-left: 0.5rem;
+  font-size: 2rem;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+}
+
+#logo img {
+  height: 50px;
+  border-radius: 50%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  color: #333333;
-  background-color: #bdbdbd;
+  color: #f4f4f4;
+  background-color: #e4e4e4;
   line-height: 1.6;
 }
 
@@ -30,11 +294,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: #f4f4ff;
   padding: 0;
 }
 
 .navbar {
+  z-index: 100;
   color: #f4f4f4;
   position: absolute;
   width: 100%;
@@ -52,10 +317,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.navbar header h1 {
-  padding: 1rem;
 }
 
 .navbar header .nav-links {
@@ -78,12 +339,66 @@ a {
   color: #f4f4f4;
 }
 
-.content {
+.image-text-container {
+  overflow: hidden;
+}
+
+.image-text {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url(../img/kvarn.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(../img/kvarn.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../img/kvarn.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(../img/kvarn.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  -webkit-animation: zoomInPic 4s;
+          animation: zoomInPic 4s;
+}
+
+.image-text .info {
+  max-width: 35rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  -webkit-animation: fadeIn 3s;
+          animation: fadeIn 3s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes zoomInPic {
+  from {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes zoomInPic {
+  from {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=styles.css.map */

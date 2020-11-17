@@ -1,10 +1,200 @@
+$primary-color: #f4f4f4;
+$dark-color: #333;
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .title {
-  font-size: 2;
+  font-family: "Courgette", sans-serif;
+  font-size: 2rem;
   font-weight: lighter;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.info {
+  max-width: 50rem;
+  color: #333;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-center-left-right {
+  margin: 0 auto;
+}
+
+/*Flex and Grid*/
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Background colors and Text colors*/
+
+.bg-primary {
+  background-color: $primary-color;
+}
+
+.text-light {
+  color: $primary-color;
+}
+
+.text-dark {
+  color: $dark-color;
+}
+
+/* Margin and Padding */
+
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 1.5rem;
+}
+.m-3 {
+  margin: 2rem;
+}
+.m-4 {
+  margin: 2.5rem;
+}
+.m-5 {
+  margin: 4rem;
+}
+.m-6 {
+  margin: 5rem;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 2.5rem 0;
+}
+.my-5 {
+  margin: 4rem 0;
+}
+.my-6 {
+  margin: 5rem 0;
+}
+.mx-1 {
+  margin: 0 1rem;
+}
+.mx-2 {
+  margin: 0 1.5rem;
+}
+.mx-3 {
+  margin: 0 2rem;
+}
+.mx-4 {
+  margin: 0 2.5rem;
+}
+.mx-5 {
+  margin: 0 4rem;
+}
+.mx-6 {
+  margin: 0 5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 1.5rem;
+}
+.mb-3 {
+  margin-bottom: 2rem;
+}
+.mb-4 {
+  margin-bottom: 2.5rem;
+}
+.mb-5 {
+  margin-bottom: 4rem;
+}
+.mb-6 {
+  margin-bottom: 5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.5rem;
+}
+.p-3 {
+  padding: 2rem;
+}
+.p-4 {
+  padding: 2.5rem;
+}
+.p-5 {
+  padding: 4rem;
+}
+.p-6 {
+  padding: 5rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 2.5rem 0;
+}
+.py-5 {
+  padding: 4rem 0;
+}
+.py-6 {
+  padding: 5rem 0;
+}
+.px-1 {
+  padding: 0 1rem;
+}
+.px-2 {
+  padding: 0 1.5rem;
+}
+.px-3 {
+  padding: 0 2rem;
+}
+.px-4 {
+  padding: 0 2.5rem;
+}
+.px-5 {
+  padding: 0 4rem;
+}
+.px-6 {
+  padding: 0 5rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+.pb-2 {
+  padding-bottom: 1.5rem;
+}
+.pb-3 {
+  padding-bottom: 2rem;
+}
+.pb-4 {
+  padding-bottom: 2.5rem;
+}
+.pb-5 {
+  padding-bottom: 4rem;
+}
+.pb-6 {
+  padding-bottom: 5rem;
 }
