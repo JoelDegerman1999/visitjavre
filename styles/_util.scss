@@ -7,10 +7,17 @@ $dark-color: #222;
 }
 
 .title {
-  font-family: "Courgette", sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+}
+
+.second-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 3rem;
-  font-weight: lighter;
-  letter-spacing: 0.2rem;
+  color: #111;
 }
 
 .info {
